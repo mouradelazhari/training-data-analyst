@@ -6,7 +6,7 @@ def upload_blob():
     # The ID of your GCS bucket
     bucket_name = "<バケット名>"
     # The path to your file to upload
-    source_file_name = "/home/<ユーザー名>/training-data-analyst/CPB100/lab2b/earthquakes.png"
+    source_file_name = "./earthquakes.png"
     # The ID of your GCS object
     destination_blob_name = "latest_earthquake.png"
 
